@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fair Use"
+  short_description: "Assess copyright, licenses, and fair-use arguments"
+  default_prompt: "Use $fair-use to assess my artwork, its sources, and my intended use in the relevant jurisdiction."
