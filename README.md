@@ -10,6 +10,8 @@ Version 0.1.0 · Sources reviewed September 7, 2026 · MIT licensed
 
 ## Browser demo
 
+For a directed screen recording, open the [Reel recording studio](docs/reel.html). It provides an eight-scene, 64-second portrait sequence, manual and automatic playback, narration cues, and a clean canvas. Real skill excerpts and a fictional, authored example tell the build story. The persistent disclosure identifies it as scripted, with no live AI. See the [recording guide](docs/reel-recording-guide.md).
+
 The [interactive demo](docs/index.html) illustrates a fictional Photoshop remix in three contexts: decorative poster sales, a critical essay, and a suitable license. It also offers a local preparation-brief builder with optional image previews and a Markdown download. **The demo uses prewritten examples; it does not run the skill, analyze images, or provide legal clearance.**
 
 Open `docs/index.html` in a browser, or run this from the repository root:
