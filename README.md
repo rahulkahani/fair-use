@@ -8,6 +8,20 @@ Give the assistant your work, relevant sources, jurisdiction, and intended use. 
 
 Version 0.1.0 · Sources reviewed September 7, 2026 · MIT licensed
 
+## Browser demo
+
+The [interactive demo](docs/index.html) illustrates a fictional Photoshop remix in three contexts: decorative poster sales, a critical essay, and a suitable license. It also offers a local preparation-brief builder with optional image previews and a Markdown download. **The demo uses prewritten examples; it does not run the skill, analyze images, or provide legal clearance.**
+
+Open `docs/index.html` in a browser, or run this from the repository root:
+
+```sh
+python3 -m http.server 8765 --bind 127.0.0.1 --directory docs
+```
+
+Then open `http://127.0.0.1:8765`. No package installation, API key, or backend is required. See [demo setup and hosting](docs/demo-guide.md) and the [recording script](docs/showcase-script.md). GitHub displays HTML source in the repository; GitHub Pages or a local browser/server is needed to render the app.
+
+The demo is copyright education and review preparation. It is not a substitute for a qualified lawyer, and its examples have not been validated by one. The full disclaimer is available within the demo.
+
 ## Start in a chat
 
 Download **fair-use-chat.md** from the [latest release](https://github.com/rahulkahani/fair-use/releases/latest), attach it to a ChatGPT or Claude conversation, and write:
