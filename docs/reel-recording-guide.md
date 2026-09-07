@@ -13,7 +13,7 @@ This is an orchestrated product walkthrough and retrospective of the build. The 
 5. For an automatic take, use **Record view + play from start**, or press **Space** while focused on the clean canvas. The prepared sequence is 64 seconds; use manual pacing or adjust durations in `reel.js` if your narration needs more time.
 6. Stop your recorder after the final scene. The sequence does not loop. **Escape**, **C**, or a tap on the clean canvas restores the controls. Retake a scene individually with the scene list, previous/next, and reset controls.
 
-The clean canvas is the recording view, not browser fullscreen. You can separately use your browser or operating system’s fullscreen controls. Hide browser chrome in your recording or crop it in editing as desired. Keep the “SCRIPTED DEMO · NO LIVE AI” and educational footer inside the published crop.
+The clean canvas is the recording view, not browser fullscreen. You can separately use your browser or operating system’s fullscreen controls. Hide browser chrome in your recording or crop it in editing as desired. Keep the “Scripted demo · no live AI” and educational footer inside the published crop.
 
 Keyboard shortcuts do not run inside editable inputs or with Control/Command/Alt modifiers. Space retains its normal activation behavior on focused buttons; in the clean canvas it plays or pauses the sequence. Playback pauses when the tab becomes hidden. Reduced-motion settings disable entrance animations. Pausing playback freezes the scene timeline; brief entrance animations may finish.
 
