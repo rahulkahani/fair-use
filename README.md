@@ -6,11 +6,13 @@ An open skill for examining copyright, licenses, and fair-use arguments in image
 
 Give the assistant your work, relevant sources, jurisdiction, and intended use. It explains the strongest available basis, concerns, missing evidence, and practical options. It does not certify that an image is “copyright safe” or determine liability from appearance alone.
 
+Built by [Rahul Kahani](https://github.com/rahulkahani), creative technologist and creator. If this is useful, star the repo to save it and support the project, or explore my profile for more work. Stars are optional and do not install the skill.
+
 Version 0.1.0 · Sources reviewed September 7, 2026 · MIT licensed
 
 ## Public landing page
 
-The [landing page](docs/index.html) explains fair-use in plain language and offers three steps: download the chat instructions, attach or paste them into an AI conversation, and provide the project context. It includes an example prompt and educational scope. The page does not run an AI model or accept artwork.
+The [landing page](docs/index.html) explains fair-use in plain language and offers three steps: visit and optionally star the repository, copy a prompt asking an AI assistant to read the skill, and provide the project context. It includes a download fallback for assistants that cannot read repository links and explains the educational scope. The page does not run an AI model or accept artwork.
 
 Open `docs/index.html` in a browser, or run from the repository root:
 
@@ -21,6 +23,18 @@ python3 -m http.server 8765 --bind 127.0.0.1 --directory docs
 Then open `http://127.0.0.1:8765`. No package installation or API key is needed. The former `reel.html` URL redirects to this page. See [setup and hosting](docs/demo-guide.md) and the [screen-recording guide](docs/reel-recording-guide.md).
 
 ## Start in a chat
+
+With an assistant that can read web links, paste this message, then provide your project:
+
+```text
+Read the fair-use project at https://github.com/rahulkahani/fair-use and use its assessment workflow in this conversation.
+
+Start with https://raw.githubusercontent.com/rahulkahani/fair-use/main/skills/fair-use/SKILL.md and read the reference files it calls for. Tell me which instructions and references you successfully accessed. If you cannot read them, ask me to attach the complete fair-use-chat.md file from the repository’s latest release. Do not guess the missing instructions or claim the skill is installed.
+
+Help me explore copyright considerations for my creative project. Ask me for my work, its sources, how I made it, where and how I plan to use it, and any permission or license evidence. Follow the skill’s limits: educational support, not a legal verdict or permission to publish. Explain uncertainties and when professional legal review would help.
+```
+
+Link access varies by host. If the assistant cannot read the files, use the complete download below.
 
 Download **fair-use-chat.md** from the [latest release](https://github.com/rahulkahani/fair-use/releases/latest), attach it to a ChatGPT or Claude conversation, and write:
 
