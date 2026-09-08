@@ -1,16 +1,9 @@
-# Paper-collage direction
+# Landing page direction
 
-The browser demo and recording studio use a handmade sketchbook treatment: layered paper, restrained rotations, irregular edges, tape, and small handwritten accents. The purpose is to make the creative workflow feel like work in progress while keeping the information readable.
+A simple paper-collage landing page explains what the fair-use skill is and how a nontechnical creator can add it to their AI chat. The public interface contains no director desk, build-story presentation, or recording controls.
 
-- Use warm ink (`#30252b`), cream (`#fff4df`), pink (`#f5b7cd`), orange (`#ed6946`), and cobalt (`#4545c0`). Avoid forest green and green-tinted neutral defaults.
-- Start scenes with the actual headline. Do not add decorative eyebrow or kicker labels above it.
-- Keep necessary provenance and educational disclosures in plain sentence case, visible in the recording crop.
-- Reserve handwriting for short annotations. Keep long explanations and instructions in readable text.
-- Use cut-paper headings on the opening scene, taped source/prompt/brief cards, and slightly offset artwork sheets. Avoid rotating dense text enough to impair reading.
-- Keep the scene pacing and screen-recording controls functional. Presentation styling does not imply live model execution.
+Use cream, pink, orange, cobalt, and warm ink. Taped artwork sheets, paper highlights, and short handwritten annotations provide the arts-and-crafts character. Keep ordinary instructions legible. Do not add decorative eyebrow labels or forest-green defaults.
 
-The graphics are editable HTML/CSS schematics. No real artist’s work, third-party stock asset, remote font, or new network dependency was added for this revision. Handwriting uses available system fonts with fallbacks, so exact typography can differ by device.
+The primary action downloads the chat instructions. Three steps and a sample prompt explain their use. Scope, AI capability limits, and the legal disclaimer remain in plain language.
 
-## Visual checks
-
-The revised eight-scene portrait canvas was inspected in the in-app browser. Scene text and art stayed within the frame and above the educational footer; decorative eyebrow elements were absent. Existing playback JavaScript was unchanged. Package checks and JavaScript syntax checks passed. This is visual/engineering verification, not a complete accessibility audit or legal validation.
+The artwork is decorative HTML/CSS typography and shapes. No real artist’s work is assessed. System font fallbacks can change the handwriting appearance across devices.

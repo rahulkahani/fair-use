@@ -8,21 +8,17 @@ Give the assistant your work, relevant sources, jurisdiction, and intended use. 
 
 Version 0.1.0 · Sources reviewed September 7, 2026 · MIT licensed
 
-## Browser demo
+## Public landing page
 
-For a directed screen recording, open the [Reel recording studio](docs/reel.html). It provides an eight-scene, 64-second portrait sequence, manual and automatic playback, narration cues, and a clean canvas. Real skill excerpts and a fictional, authored example tell the build story. The persistent disclosure identifies it as scripted, with no live AI. See the [recording guide](docs/reel-recording-guide.md).
+The [landing page](docs/index.html) explains fair-use in plain language and offers three steps: download the chat instructions, attach or paste them into an AI conversation, and provide the project context. It includes an example prompt and educational scope. The page does not run an AI model or accept artwork.
 
-The [interactive demo](docs/index.html) illustrates a fictional Photoshop remix in three contexts: decorative poster sales, a critical essay, and a suitable license. It also offers a local preparation-brief builder with optional image previews and a Markdown download. **The demo uses prewritten examples; it does not run the skill, analyze images, or provide legal clearance.**
-
-Open `docs/index.html` in a browser, or run this from the repository root:
+Open `docs/index.html` in a browser, or run from the repository root:
 
 ```sh
 python3 -m http.server 8765 --bind 127.0.0.1 --directory docs
 ```
 
-Then open `http://127.0.0.1:8765`. No package installation, API key, or backend is required. See [demo setup and hosting](docs/demo-guide.md) and the [recording script](docs/showcase-script.md). GitHub displays HTML source in the repository; GitHub Pages or a local browser/server is needed to render the app.
-
-The demo is copyright education and review preparation. It is not a substitute for a qualified lawyer, and its examples have not been validated by one. The full disclaimer is available within the demo.
+Then open `http://127.0.0.1:8765`. No package installation or API key is needed. The former `reel.html` URL redirects to this page. See [setup and hosting](docs/demo-guide.md) and the [screen-recording guide](docs/reel-recording-guide.md).
 
 ## Start in a chat
 
